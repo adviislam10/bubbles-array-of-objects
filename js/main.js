@@ -49,7 +49,7 @@ function keydownHandler(event) {
 
 document.addEventListener('click', mousedownHandler);
 
-function mousedownHandler(event) {
+function mousedownHandler() {
             // Add a new random bubble
             bubbles.push({
                 x: mouseX,
