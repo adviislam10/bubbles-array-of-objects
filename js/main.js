@@ -42,8 +42,8 @@ function draw() {
 document.addEventListener('keydown', keydownHandler);
 
 function keydownHandler(event) {
-    if (event.code == 'ArrowRight') {
-
+    if (event.code == 'ArrowDown') {
+        bubbles.pop();
     }
 }
 
